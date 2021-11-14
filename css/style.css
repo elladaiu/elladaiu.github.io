@@ -100,4 +100,7 @@ footer{
   text-align: center;
   color: white;
 }
+.embed-responsive-item{
+	frameborder: 0;
+}
 
