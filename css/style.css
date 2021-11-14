@@ -22,21 +22,15 @@ li {
 	background-color: rgba(201, 95, 215, 0.68);
 	color: #fff;
 }
-.nav-links a {
-	color: #fff;
-}
-ul.navlinks{
-	overflow: hidden;
-}
 .logo {
 	font-size: 32px;
 }
-ul.nav-links li {float: left;}
-ul.nav-links li a {
+.menu li {float: left;}
+.menu li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 16px;
   text-decoration: none;
   font-size: 20px;
 }
@@ -47,6 +41,9 @@ ul.nav-links li a {
 }
 .menu li {
 	padding: 5px 14px;
+}
+.menu li a{
+	color: white;
 }
 @media screen and (max-width: 600px){
   ul.nav-links li {
@@ -103,3 +100,4 @@ footer{
   text-align: center;
   color: white;
 }
+
